@@ -1,0 +1,18 @@
+.listed-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.listed-list > .list-item {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin: 3px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listed-list > .list-item img{
+    max-height: 50px;
+}
